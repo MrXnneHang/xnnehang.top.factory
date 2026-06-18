@@ -3,6 +3,9 @@
 .obsidian/cache/
 .obsidian/plugins/*/data.json
 
+# YOLO chat data
+YOLO/.yolo_json_db/chats/
+
 # OS
 .DS_Store
 Thumbs.db
