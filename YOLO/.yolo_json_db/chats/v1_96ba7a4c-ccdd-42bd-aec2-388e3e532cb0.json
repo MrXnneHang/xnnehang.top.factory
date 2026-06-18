@@ -1,0 +1,109 @@
+{
+  "id": "96ba7a4c-ccdd-42bd-aec2-388e3e532cb0",
+  "title": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你能做什么？",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "51b94634-9737-4e02-8788-25524f4b2116",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "medium",
+      "timeContext": "2026-06-16 14:58 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "cbcfd6d4-3a0a-49b5-b294-831360c42317",
+      "metadata": {
+        "model": {
+          "providerId": "haomo",
+          "id": "haomo/claude-opus-4-6[1m]",
+          "model": "claude-opus-4-6[1m]",
+          "name": "claude-opus-4-6[1m]",
+          "reasoningType": "anthropic",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "error",
+        "branchConversationId": "96ba7a4c-ccdd-42bd-aec2-388e3e532cb0",
+        "branchModelId": "haomo/claude-opus-4-6[1m]",
+        "branchLabel": "claude-opus-4-6[1m]",
+        "durationMs": 1053,
+        "errorMessage": "Provider haomo API key is invalid. Please update it in settings menu.\nCaused by: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cc6WGnJ55d7GrtaDmVrBj\"}\nCaused by: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cc6WGnJ55d7GrtaDmVrBj\"}\nCaused by: invalid x-api-key"
+      }
+    }
+  ],
+  "createdAt": 1781592957821,
+  "updatedAt": 1781593133197,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "agent-full"
+  },
+  "conversationModelId": "haomo/claude-opus-4-6[1m]",
+  "messageModelMap": {
+    "51b94634-9737-4e02-8788-25524f4b2116": "haomo/claude-opus-4-6[1m]"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "medium",
+  "compaction": []
+}

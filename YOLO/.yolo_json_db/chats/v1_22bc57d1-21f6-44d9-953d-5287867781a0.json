@@ -1,0 +1,205 @@
+{
+  "id": "22bc57d1-21f6-44d9-953d-5287867781a0",
+  "title": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "ab8fe121-1dea-48bc-aa73-4c8d44ff2593",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-17 12:48 (Wednesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "你好呀！😊\n\n我看到你当前正在查看 **tangdao-zhi-lian.md** 这个文件。需要我帮你看看它的内容，或者做些什么吗？",
+      "reasoning": "The user is saying \"你好呀\" (Hello) and they have a file open called \"tangdao-zhi-lian.md\". Let me check what this file is about to give a better response.",
+      "id": "d402b38f-f633-4406-ae77-01e16aeeff49",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "openai",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "22bc57d1-21f6-44d9-953d-5287867781a0",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "usage": {
+          "prompt_tokens": 4622,
+          "completion_tokens": 78,
+          "total_tokens": 4700,
+          "cache_read_input_tokens": 4480
+        },
+        "durationMs": 2622
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "d1a11c90-0569-4fa0-b24a-7dbe5e7ff337",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-17 13:00 (Wednesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "900e8a05-646f-4acd-b0f0-940cd28ee14a",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "openai",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "22bc57d1-21f6-44d9-953d-5287867781a0",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "durationMs": 1610
+      }
+    }
+  ],
+  "createdAt": 1781671700853,
+  "updatedAt": 1781672408198,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "agent"
+  },
+  "conversationModelId": "xnne/deepseek-v4-flash[1m]",
+  "messageModelMap": {
+    "ab8fe121-1dea-48bc-aa73-4c8d44ff2593": "xnne/deepseek-v4-flash[1m]",
+    "d1a11c90-0569-4fa0-b24a-7dbe5e7ff337": "xnne/deepseek-v4-flash[1m]"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "auto",
+  "compaction": []
+}

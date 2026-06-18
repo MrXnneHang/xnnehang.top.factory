@@ -1,0 +1,146 @@
+{
+  "id": "78f7236c-863c-469a-b48b-44832a5dac3d",
+  "title": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "dd8214eb-702f-4fbd-ad22-1b10decbaa92",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "off",
+      "timeContext": "2026-06-16 14:48 (Tuesday)"
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "88f93a2e-36d4-4aeb-9b82-66fdec8a0165",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "off",
+      "timeContext": "2026-06-16 14:50 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "e737c739-8398-4d3b-b0f3-19135a6f8f52",
+      "metadata": {
+        "model": {
+          "providerId": "haomo",
+          "id": "haomo/claude-opus-4-6[1m]",
+          "model": "claude-opus-4-6[1m]",
+          "name": "claude-opus-4-6[1m]",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          },
+          "reasoningType": "anthropic"
+        },
+        "generationState": "completed",
+        "branchConversationId": "78f7236c-863c-469a-b48b-44832a5dac3d",
+        "branchModelId": "haomo/claude-opus-4-6[1m]",
+        "branchLabel": "claude-opus-4-6[1m]",
+        "durationMs": 1456
+      }
+    }
+  ],
+  "createdAt": 1781592485459,
+  "updatedAt": 1781592653839,
+  "schemaVersion": 1,
+  "compaction": [],
+  "overrides": {
+    "chatMode": "agent-full"
+  },
+  "conversationModelId": "",
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "off"
+}

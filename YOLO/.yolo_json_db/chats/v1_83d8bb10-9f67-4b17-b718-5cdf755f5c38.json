@@ -1,0 +1,378 @@
+{
+  "id": "83d8bb10-9f67-4b17-b718-5cdf755f5c38",
+  "title": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "928e69e9-9c7e-420e-8bd3-79f46a28cc84",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "medium",
+      "timeContext": "2026-06-16 14:54 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "37771711-726d-4d0f-85be-cb967b266bda",
+      "metadata": {
+        "model": {
+          "providerId": "haomo",
+          "id": "haomo/claude-opus-4-6[1m]",
+          "model": "claude-opus-4-6[1m]",
+          "name": "claude-opus-4-6[1m]",
+          "reasoningType": "anthropic",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "83d8bb10-9f67-4b17-b718-5cdf755f5c38",
+        "branchModelId": "haomo/claude-opus-4-6[1m]",
+        "branchLabel": "claude-opus-4-6[1m]",
+        "durationMs": 1617
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "93f45924-f7ba-4663-90bd-860201abd3bd",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "medium",
+      "timeContext": "2026-06-16 14:55 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "c427c01c-6411-4eaa-aa5e-5b6fbd024e97",
+      "metadata": {
+        "model": {
+          "providerId": "haomo",
+          "id": "haomo/claude-opus-4-6[1m]",
+          "model": "claude-opus-4-6[1m]",
+          "name": "claude-opus-4-6[1m]",
+          "reasoningType": "anthropic",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "83d8bb10-9f67-4b17-b718-5cdf755f5c38",
+        "branchModelId": "haomo/claude-opus-4-6[1m]",
+        "branchLabel": "claude-opus-4-6[1m]",
+        "durationMs": 1458
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "6ce0b509-7fbd-4793-bc14-df5fdc716481",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "medium",
+      "timeContext": "2026-06-16 14:55 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "46f7b27b-573e-4ea6-90a6-9ac95db6b3b3",
+      "metadata": {
+        "model": {
+          "providerId": "haomo",
+          "id": "haomo/claude-opus-4-6[1m]",
+          "model": "claude-opus-4-6[1m]",
+          "name": "claude-opus-4-6[1m]",
+          "reasoningType": "anthropic",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "83d8bb10-9f67-4b17-b718-5cdf755f5c38",
+        "branchModelId": "haomo/claude-opus-4-6[1m]",
+        "branchLabel": "claude-opus-4-6[1m]",
+        "durationMs": 1475
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好安逸",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "15ac1ff3-889c-43e2-bebd-bd1032685081",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "medium",
+      "timeContext": "2026-06-16 14:55 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "6ad81563-f37d-4533-8a32-f45c40e3577a",
+      "metadata": {
+        "model": {
+          "providerId": "haomo",
+          "id": "haomo/claude-opus-4-6[1m]",
+          "model": "claude-opus-4-6[1m]",
+          "name": "claude-opus-4-6[1m]",
+          "reasoningType": "anthropic",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "83d8bb10-9f67-4b17-b718-5cdf755f5c38",
+        "branchModelId": "haomo/claude-opus-4-6[1m]",
+        "branchLabel": "claude-opus-4-6[1m]",
+        "durationMs": 1500
+      }
+    }
+  ],
+  "createdAt": 1781592869292,
+  "updatedAt": 1781592942825,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "agent-full"
+  },
+  "conversationModelId": "haomo/claude-opus-4-6[1m]",
+  "messageModelMap": {
+    "928e69e9-9c7e-420e-8bd3-79f46a28cc84": "haomo/claude-opus-4-6[1m]",
+    "93f45924-f7ba-4663-90bd-860201abd3bd": "haomo/claude-opus-4-6[1m]",
+    "6ce0b509-7fbd-4793-bc14-df5fdc716481": "haomo/claude-opus-4-6[1m]",
+    "15ac1ff3-889c-43e2-bebd-bd1032685081": "haomo/claude-opus-4-6[1m]"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "medium",
+  "compaction": []
+}

@@ -1,0 +1,108 @@
+{
+  "id": "b6a8b7e9-3312-4fc2-819a-e18159646957",
+  "title": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "c98d39a3-5b64-4a45-b624-15a1de3c07bd",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-17 12:47 (Wednesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "bdc82ef7-d296-4a44-ba45-eb1041a69da7",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "openai",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "b6a8b7e9-3312-4fc2-819a-e18159646957",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "durationMs": 1284
+      }
+    }
+  ],
+  "createdAt": 1781671657327,
+  "updatedAt": 1781671658467,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "agent"
+  },
+  "conversationModelId": "xnne/deepseek-v4-flash[1m]",
+  "messageModelMap": {
+    "c98d39a3-5b64-4a45-b624-15a1de3c07bd": "xnne/deepseek-v4-flash[1m]"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "auto",
+  "compaction": []
+}

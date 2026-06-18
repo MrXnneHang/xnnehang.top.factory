@@ -1,0 +1,109 @@
+{
+  "id": "1d2b1527-0be1-4c20-9063-fa103629790a",
+  "title": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好呀",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "7b73e70a-866a-40d5-b70e-7ff72330023e",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-17 13:00 (Wednesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "fc3bda7d-a853-42d3-8bfc-1ab82dc0e816",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "openai",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "error",
+        "branchConversationId": "1d2b1527-0be1-4c20-9063-fa103629790a",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "durationMs": 952,
+        "errorMessage": "No content received — the stream completed without producing any tokens."
+      }
+    }
+  ],
+  "createdAt": 1781672440616,
+  "updatedAt": 1781672441398,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "agent"
+  },
+  "conversationModelId": "xnne/deepseek-v4-flash[1m]",
+  "messageModelMap": {
+    "7b73e70a-866a-40d5-b70e-7ff72330023e": "xnne/deepseek-v4-flash[1m]"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "auto",
+  "compaction": []
+}

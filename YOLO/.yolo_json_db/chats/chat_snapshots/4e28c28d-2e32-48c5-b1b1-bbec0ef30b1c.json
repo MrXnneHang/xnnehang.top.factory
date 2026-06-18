@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "c07215c6": {
+      "hash": "c07215c6",
+      "content": [
+        {
+          "type": "text",
+          "text": "\n\n你能不能帮我处理一下图片预览的问题？\n../../assets/img/covers/画江湖.jpg\n目前所有的图片都是这样的，在这里是不可预览的。\n你可以克隆 ：https://github.com/MrXnneHang/image-hosting \n它对应的就是 img 这一层级。然后帮我处理一下所有博客里的图片预览。\n同时我们要补充一下 skill，是关于我们 xnnehang.top.factory 和 nyakku.moe(xnnehang.top)的真实关系。\n前者是 obsidian 的写作道场，后者是 fuwari 的博客系统。\n我们日常只需要做好 obsidian 的更新就好，post 我暂时自己做。\n需要注意的区别是，这俩博客内容会有些不同，主要区别就在于图片，这俩可以共享一个 img submodule（我打算把 obsidian 道场也上传到 github），但是这俩的图片预览路径应该是不同的。你觉得呢？\n\n"
+        }
+      ],
+      "createdAt": 1781749985251,
+      "updatedAt": 1781749985251
+    },
+    "78d5b23e": {
+      "hash": "78d5b23e",
+      "content": [
+        {
+          "type": "text",
+          "text": "\n\nhttps://github.com/MrXnneHang/xnnehang.top.factory.git \n你可以推送到这里。加个 README\n\n"
+        }
+      ],
+      "createdAt": 1781751642589,
+      "updatedAt": 1781751642589
+    }
+  }
+}

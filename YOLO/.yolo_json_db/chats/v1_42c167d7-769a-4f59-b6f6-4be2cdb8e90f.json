@@ -1,0 +1,470 @@
+{
+  "id": "42c167d7-769a-4f59-b6f6-4be2cdb8e90f",
+  "title": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "1f44310f-6438-4873-aee6-69084894a9fc",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "medium",
+      "timeContext": "2026-06-16 14:59 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "fd54b9e0-b83b-42d4-8cdb-b16120a1a50e",
+      "metadata": {
+        "model": {
+          "providerId": "haomo",
+          "id": "haomo/claude-opus-4-6[1m]",
+          "model": "claude-opus-4-6[1m]",
+          "name": "claude-opus-4-6[1m]",
+          "reasoningType": "anthropic",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "error",
+        "branchConversationId": "42c167d7-769a-4f59-b6f6-4be2cdb8e90f",
+        "branchModelId": "haomo/claude-opus-4-6[1m]",
+        "branchLabel": "claude-opus-4-6[1m]",
+        "durationMs": 1036,
+        "errorMessage": "Provider haomo API key is invalid. Please update it in settings menu.\nCaused by: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cc6WHmC7r4KEyUqaYZS2N\"}\nCaused by: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cc6WHmC7r4KEyUqaYZS2N\"}\nCaused by: invalid x-api-key"
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "5132e703-54f0-457c-af4f-34306707d5e2",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-16 15:00 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "0749a7aa-a2d4-43fd-a597-6b88f76ee799",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "openai",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "42c167d7-769a-4f59-b6f6-4be2cdb8e90f",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "durationMs": 1351
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你哈",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "2548107c-2cff-4b66-87e7-3490bd59012d",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-16 15:03 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "e4d70219-cbd8-4aab-b532-a22fb04b925b",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "openai",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "error",
+        "branchConversationId": "42c167d7-769a-4f59-b6f6-4be2cdb8e90f",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "durationMs": 2761,
+        "errorMessage": "404 Invalid URL (GET /v1/chat/completions)\nCaused by: Invalid URL (GET /v1/chat/completions)"
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "5fa4db38-db9b-45ed-b657-7de6b585cae8",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-16 15:04 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "9ba1f800-7719-44e4-84f0-66068de9e89e",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "none",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "42c167d7-769a-4f59-b6f6-4be2cdb8e90f",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "durationMs": 1320
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "你好",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "0c0b7e46-344b-445b-ad33-688c93fef719",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "auto",
+      "timeContext": "2026-06-16 15:04 (Tuesday)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "id": "effac398-7541-4e61-a3c0-d0254ceb76e7",
+      "metadata": {
+        "model": {
+          "providerId": "xnne",
+          "id": "xnne/deepseek-v4-flash[1m]",
+          "model": "deepseek-v4-flash[1m]",
+          "name": "deepseek-v4-flash[1m]",
+          "reasoningType": "none",
+          "modalities": [
+            "text"
+          ],
+          "builtinToolProvider": "none",
+          "builtinTools": {
+            "gpt": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "openrouter": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "grok": {
+              "webSearch": {
+                "enabled": false
+              }
+            },
+            "gemini": {
+              "webSearch": {
+                "enabled": false
+              },
+              "urlContext": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "42c167d7-769a-4f59-b6f6-4be2cdb8e90f",
+        "branchModelId": "xnne/deepseek-v4-flash[1m]",
+        "branchLabel": "deepseek-v4-flash[1m]",
+        "durationMs": 1324
+      }
+    }
+  ],
+  "createdAt": 1781593145590,
+  "updatedAt": 1781593487520,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "ask"
+  },
+  "conversationModelId": "xnne/deepseek-v4-flash[1m]",
+  "messageModelMap": {
+    "1f44310f-6438-4873-aee6-69084894a9fc": "haomo/claude-opus-4-6[1m]",
+    "5132e703-54f0-457c-af4f-34306707d5e2": "xnne/deepseek-v4-flash[1m]",
+    "2548107c-2cff-4b66-87e7-3490bd59012d": "xnne/deepseek-v4-flash[1m]",
+    "5fa4db38-db9b-45ed-b657-7de6b585cae8": "xnne/deepseek-v4-flash[1m]",
+    "0c0b7e46-344b-445b-ad33-688c93fef719": "xnne/deepseek-v4-flash[1m]"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "auto",
+  "compaction": []
+}
