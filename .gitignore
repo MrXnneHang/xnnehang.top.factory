@@ -13,3 +13,24 @@ Thumbs.db
 # Node / misc
 node_modules/
 *.log
+
+# Root-level media files (belongs in assets/img/ submodule)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+*.bmp
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Obsidian plugins (submodules should not be tracked by parent repo)
+.obsidian/plugins/obsidian-yolo/
