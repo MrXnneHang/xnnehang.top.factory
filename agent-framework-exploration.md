@@ -9,6 +9,7 @@ tags:
   - 实时系统
 description: 从 AI 陪伴引擎的实践经验出发，对比 LangChain、Dify、LangGraph、Coze 等主流 Agent 框架的局限性，记录我们为实时陪伴场景自建底层框架的核心设计思路与取舍。
 ---
+![[assets/img/agent-framework-exploration/hero-bg-1.png]]
 
 > [!NOTE]
 > **AI 协作声明：** 本文由 Xnne 与 [Korewaxnne](https://github.com/xnne-bot)（AI 助手，基于 Claude Opus 4.6）共同撰写。Xnne 提供了技术实践、业务思考与核心设计决策，Korewaxnne 协助组织了全文结构与技术表述。
@@ -272,7 +273,7 @@ LangChain 的 Chain、LangGraph 的 StateGraph、Dify 的 Workflow Node——这
 
 3. **声明式配置，而不是代码编排**。一个 `plugin.toml` 声明插件身份，一个 `profile.toml` 声明场景配置。切换 Agent 行为是换一个文件，不是改一段代码。
 
-4. **让插件彼此隔离**。插件之间不能互相 import，共享逻辑必须提升到框架层。这避免了 LangChain 生态里常见的"装了 A 插件就必须装 B 插件"的依赖地狱。
+4. **让插件彼此隔离，但声明依赖链**。插件之间不能互相 import，共享逻辑必须提升到框架层。但隔离不等于没有关系——有的插件确实需要其他插件作为前置，比如 `mood_chat` 依赖 `vision_boost`。我们区分**前置**与**后置**：A 是 B 的前置，则 B 是 A 的后置。要装后置插件，必须先装齐所有前置，且整个依赖链的解析和校验在配置层面完成，而不是运行时才报错。
 
 这不是"我们比 LangChain/Dify 更好"的论述。它们在各自的目标场景里做得很好。这是一个关于"当主流框架的抽象边界与你的业务需求不对齐时，你应该怎么办"的实践记录。
 
