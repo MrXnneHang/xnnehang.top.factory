@@ -11,7 +11,7 @@ tags:
   - 回顾
 description: "一个由《可塑性记忆》开始的、十八岁的梦在二十二岁时成为研究课题的、简单的、平平无奇的故事——以及围绕 Long-Term Memory 的技术方向分析、项目拆解计划和生活展望。"
 ---
-![cover](assets/img/covers/Pasted%20image%2020260628124345.png)
+![cover](assets/img/graduation-review/graduation-review-cover.png)
 
 >  [去做机器人！AI本科毕业后的年度总结](https://blog.nagi.fun/2025-memo?lang=zh) 这篇是我的灵感来源，我打算先做一个 RoadMap，以及简单地回顾一下我的本科生涯，也是为了探寻——什么是我真正追求的。
 
