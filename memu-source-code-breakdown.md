@@ -263,22 +263,22 @@ DEFAULT_MEMORY_TYPES: list[str] = ["profile", "event"]
 
 ##### Gemini 的回答
 
-![[Pasted image 20260629130823.png]]
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629130823.png)
 
 1.强约束+正则实现的。
 
-![[Pasted image 20260629131027.png]]
-![[Pasted image 20260629131117.png]]
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629131027.png)
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629131117.png)
 
 2.最少 1 次（无检索），涉及检索最少 3 次，最多 6 次。
 
-![[Pasted image 20260629131251.png]]
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629131251.png)
 
 3.这个 MORE 不是把在 TOP K 里多取几条，而是更详细的意思。把源数据给出去了。这样更干脆，避免进 loop。
 
 #### Claude 的补充 | 被我忽略的 RAG 模式
 
-![[Pasted image 20260629154017.png]]
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629154017.png)
 
 
 ### 总结
@@ -312,9 +312,9 @@ Conflict detection: compare new itemswith existing ones in the same category for
 
 这是一些参考，具体得等我扒一下代码才能看出来。
 
-![[Pasted image 20260629150643.png]]
-![[Pasted image 20260629150743.png]]
-![[Pasted image 20260629150815.png]]
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629150643.png)
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629150743.png)
+![](assets/img/memu-prompt-breakdown/Pasted%20image%2020260629150815.png)
 
 gemini 啥时候能把谄媚的性子改一改。
 
