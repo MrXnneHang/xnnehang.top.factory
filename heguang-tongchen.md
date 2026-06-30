@@ -8,6 +8,7 @@ tags:
   - 思考
 description: 刷到一个讲和光同尘的视频，拿韩立举例子，看完愣了好久
 shelf: '动漫'
+feature: true
 series:
   - 观影
 ---
