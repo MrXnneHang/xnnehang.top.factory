@@ -33,7 +33,7 @@ draft: false
 
 另外，在《荒野大镖客2》里，我也有过类似的感觉。
 
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1zU4y1474u&page=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://player.bilibili.com/player.html?bvid=BV1zU4y1474u&page=1" frameborder="0" allowfullscreen></iframe>
 
 5 分 35 秒开始的对话，亚瑟带着小杰克出去钓鱼：
 
