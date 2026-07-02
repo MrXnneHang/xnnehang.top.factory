@@ -115,4 +115,4 @@ mentor 问，作为一个情感陪伴类 memory 使用者有什么看法。
 
 ---
 
-早上和 mentor 以及 leader meeting 的时候，leader 提到 
+早上和 mentor 以及 leader meeting 的时候，leader 提到 memory item 的生成还是比较灵活，不再局限于一个 entity，可以是一个 sentence 或者一个 document，还没定下来。这样子的话确实有搞头。但是由于我没有具体参与数据模型设计，也不太了解 category 具体数据长啥样，后续可以跟一下 category 的具体形式。然后再进一步了解。
