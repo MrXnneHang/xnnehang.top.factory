@@ -11,6 +11,7 @@ tags:
 description: memU ADR0007 推翻了之前的 LLM mode，从 C 端产品开发者和情感陪伴场景聊我的看法
 feature: true
 ---
+![](assets/img/memu-adr0007-ce-duan-perspective/cover.png)
 
 ## 站在 C 端开发者的角度看 memU ADR0007
 
@@ -111,3 +112,7 @@ mentor 问，作为一个情感陪伴类 memory 使用者有什么看法。
 从情感陪伴场景来说，这个代价比较大。用户在意的不只是"agent 知道我喜欢猫"（语义状态），而是"我生病那晚猫陪我度过所以我喜欢猫"（具体事件）。状态式的 category 会把事件蒸馏成状态，共同经历就没有了。对工具型场景这无所谓，但对陪伴场景，这些事件本身就是"关系"的载体。
 
 如果调转后还想保留 link，我觉得比较好的做法是新增一条基于时间线的 append-only 情景事件线：category/item 管语义状态（可覆盖更新），事件线管因果链、矛盾链（只追加、不改写）。这条事件线同时也补上了你们提到的"事件类信息追踪变弱"的 trade-off——这两个问题其实是同一个缺口。而且 CAUSED / SUPERSEDES 这类关系本质上就是事件与事件之间的关系，而不是调转后的 item 和 item——记忆与记忆之间的关系。代价是得维护更新两份记忆。
+
+---
+
+早上和 mentor 以及 leader meeting 的时候，leader 提到 
